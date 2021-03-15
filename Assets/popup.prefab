@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3633477966130671671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3633477966130671668}
+  - component: {fileID: 3633477966130671674}
+  - component: {fileID: 3633477966130671669}
+  - component: {fileID: 3633477966130671675}
+  - component: {fileID: 3633477966130671672}
+  m_Layer: 5
+  m_Name: popup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3633477966130671668
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633477966130671671}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.308, y: 2.308, z: 2.308}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3633477966130671674
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633477966130671671}
+  m_CullTransparentMesh: 0
+--- !u!114 &3633477966130671669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633477966130671671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3633477966130671675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633477966130671671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3391be7de0ff2c449e50518dd0197a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+--- !u!114 &3633477966130671672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633477966130671671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a91aa395e0bb9b44b891c61b41a51dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image:
+  - {fileID: 21300000, guid: 3aeb762c654e44843aa40cc3b9c59563, type: 3}
+  - {fileID: 21300000, guid: e9a4992b5e3001a4aa4f02719a842c71, type: 3}
+  - {fileID: 21300000, guid: 73b3576c5a9443740a9160d4f785726d, type: 3}
+  - {fileID: 21300000, guid: 78c60ea838b22f045a715287cea625cf, type: 3}
+  - {fileID: 21300000, guid: b06244dd71646484698bb0a5c8fb5eb3, type: 3}
+  - {fileID: 21300000, guid: 85b29135cd7df234c88b5b6e8bd1c6c1, type: 3}
+  - {fileID: 21300000, guid: 4e65027603bf6f64ca61aff48b8a754b, type: 3}
+  - {fileID: 21300000, guid: 8edba16a9540c814eb12487a788d31d4, type: 3}
+  - {fileID: 21300000, guid: 2591a7a81b6cfe04c825e313f35c075b, type: 3}
+  - {fileID: 21300000, guid: d04aea5d57a4e094889f631261fbe882, type: 3}
+  - {fileID: 21300000, guid: 7aaa0aba7c656454a879a8ccca976a45, type: 3}
+  - {fileID: 21300000, guid: 2621db94067abe44f90e600f0990e775, type: 3}
+  - {fileID: 21300000, guid: d89cceac10414b94abdcdd36103e1f7b, type: 3}
+  - {fileID: 21300000, guid: 82eb96affd91cc442a52d1fd3f43a2b8, type: 3}
