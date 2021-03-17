@@ -139,3 +139,28 @@ Received Import Request.
 Start importing Assets/textbalon.png using Guid(19c8c43d986a24d418cf7a53909a532a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f533116417449274d9c87c48b235f1b') in 0.016731 seconds
   Import took 0.019619 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000785 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.886 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.0 MB.
+System memory in use after: 60.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1575.
+Total: 1.725800 ms (FindLiveObjects: 0.156900 ms CreateObjectMapping: 0.031600 ms MarkObjects: 1.521500 ms  DeleteObjects: 0.014900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
